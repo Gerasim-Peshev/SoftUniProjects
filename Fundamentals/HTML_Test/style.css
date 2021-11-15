@@ -1,0 +1,38 @@
+h1{
+    color: rgb(132, 0, 255);
+    font-size: big;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Bonheur Royale', cursive;
+    
+}
+
+h2{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+    word-spacing: 40px;
+    text-align: center;
+
+}
+
+.AM{
+    width: 150px;
+    border: 4px solid red;
+       
+}
+h3{
+ font-family: 'Bonheur Royale', cursive;
+ font-size: 20px;
+ font-style: italic;
+ font-style: bold;
+ word-spacing: 5px;
+}
+
+.MA{
+    width: 150px;
+    border: 4px solid blue;
+    border-radius: 12px;
+}
