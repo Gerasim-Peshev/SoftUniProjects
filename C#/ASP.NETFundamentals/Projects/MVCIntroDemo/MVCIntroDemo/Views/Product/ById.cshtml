@@ -1,0 +1,18 @@
+﻿@model MVCIntroDemo.Models.Product.ProductViewModel
+
+@{
+    ViewBag.Title = "Product N." + Model.Id;
+}
+
+<div class="card">
+    <div class="card-header">@ViewBag.Title</div>
+    <div class="card-body">
+        <h5 class="card-title">Product Name: @Model.Name</h5>
+        <p class="card-text">Product Price: @Model.Price</p>
+    </div>
+    <div class="card-footer">
+        <form method="post">
+            <button asp-controller="Product" asp-action="My-Products">Return to All</button>
+        </form>
+    </div>
+</div>
