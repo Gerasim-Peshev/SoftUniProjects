@@ -1,0 +1,28 @@
+.site-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 5em 2em;
+    margin: 1em 0;
+    background: transparent;
+    color: white;
+}
+
+.site-hero h1{
+    font-size: 60px;
+}
+
+.site-hero a {
+    text-decoration: none;
+    color: white;
+    padding: 0.7em 1em;
+    background-color: #d01919;
+    border-radius: 9px;
+}
+
+.site-hero p {
+    max-width: 54ch;
+    text-align: center;
+}

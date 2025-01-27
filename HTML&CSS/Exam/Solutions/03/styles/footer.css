@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background: #171720;
+    border-top: 2px solid #323239;
+    padding: 1em 0;
+}
+
+.footer span {
+    font-size: 12px;
+    color: #a4a29f;
+    margin-left: 280px;
+}

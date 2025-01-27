@@ -1,0 +1,46 @@
+.site-coaches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: #efefef;
+    padding-bottom: 5em;
+}
+
+.site-coaches h1 {
+    font-size: 30px;
+    padding: 1.5em 0;
+    border-bottom: 3px solid #d01919;
+    
+}
+
+.site-coaches-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+
+.site-coaches-articles article {
+    flex: 0 0 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-coaches-articles article img {
+    width: 70%;
+    height: auto;
+}
+
+.site-coaches-articles h3 {
+    font-size: 13px;
+    color: #d02752;
+}
+
+.site-coaches-articles p {
+    text-align: center;
+    width: 31ch;
+    color: #c9bbb8;
+}

@@ -1,0 +1,11 @@
+html {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../image/fitness-main.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 0 -41%;
+    background-size: 100%;
+}

@@ -1,0 +1,45 @@
+.site-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: white;
+    padding-bottom: 5em;
+}
+
+.site-welcome h1 {
+    font-size: 30px;
+    padding: 1.5em 0;
+    border-bottom: 3px solid #d01919;
+    
+}
+
+.site-welcome-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.site-welcome-articles article {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-welcome-articles article img {
+    width: 20%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.site-welcome-articles h3 {
+    font-size: 13px;
+    color: #d02752;
+}
+
+.site-welcome-articles p {
+    text-align: center;
+    width: 31ch;
+}
